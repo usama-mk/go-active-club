@@ -1,0 +1,125 @@
+.cardOffer{
+    display: flex;
+    flex-direction: column;
+    background-color: #365a9a;
+    padding: 10px;
+    border-radius: 20px 20px 40px 40px;
+    /* width: 25vw; */
+    height: fit-content;
+    margin: 50px;
+    /* flex: 1 0 21% */
+    flex-basis: 25vw;
+}
+
+.cardOffer__heading{
+    display: flex;
+    align-items: center;
+    background-color: #c9c9c9;
+    border-radius: 20px 20px 30px 30px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cardOffer__heading__image> img{
+    width: 50px;
+    height: 50px;
+    flex: 0.1;
+}
+.cardOffer__heading__info{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+    
+}
+
+.cardOffer__heading__info__heading{
+    font-weight: 700;
+    font-size: 12px;
+}
+.cardOffer__heading__info__subheading{
+    font-weight: 400;
+    font-size: 12px;
+}
+.cardOffer__heading__price{
+    flex: 0.3;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.cardOffer__date{
+    margin-top: 10px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #c9c9c9;
+    
+}
+.cardOffer__date__range{
+    font-weight: 500px;
+}
+.cardOffer__moreInfo{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.cardOffer__moreInfo__aboutOffer{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.6;
+   
+}
+
+.cardOffer__moreInfo__aboutOffer__details{
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    max-width: 155px;
+    max-height: 150px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.cardOffer__moreInfo__otherParticipants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3e69a1;
+    flex: 0.4;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    height: fit-content;
+
+}
+.cardOffer__moreInfo__aboutOffer__button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #bb6327;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardOffer__moreInfo__otherParticipants{
+    cursor: pointer;
+}
+.cardOffer__moreInfo__otherParticipants__number{
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+}
+.cardOffer__moreInfo__otherParticipants__groups{
+    margin-top: 10px;
+}
+
+.cardOffer__moreInfo__aboutOffer__details{
+    font-size: 14;
+    font-weight: 400;
+}
