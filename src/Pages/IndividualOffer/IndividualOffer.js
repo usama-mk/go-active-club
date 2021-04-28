@@ -76,9 +76,9 @@ function IndividualOffer() {
                             <div className="individualOffer__body__offerInfo__leftContainer__included__arrow">
                                 == Number of nights: 5
                                 <div className="individualOffer__body__offerInfo__leftContainer__included__arrow__bullets" >
-                                   <div> o Breakfast Included</div>
+                                    <div> o Breakfast Included</div>
                                     <div>o Yoga 3x Included</div>
-                                   <div> o Bikes and surf gear Included</div>
+                                    <div> o Bikes and surf gear Included</div>
 
                                 </div>
                             </div>
@@ -112,19 +112,19 @@ function IndividualOffer() {
                                 </div>
                                 <div className="individualOffer__body__offerInfo__rightContainer__seeAll__left__items">
                                     <div>==SBE</div>
-                                   <div> ==Fasos</div>
+                                    <div> ==Fasos</div>
                                     <div>==FMHL</div>
                                     <div>==UCM</div>
                                 </div>
                             </div>
                             <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right" >
                                 <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" >
-                                    <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img1} alt=""/>
-                                    <img src={img2} alt=""/></div>
-                                    <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img3} alt=""/>
-                                    <img src={img1} alt=""/></div>
-                                    <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img2} alt=""/>
-                                    <img src={img3} alt=""/></div>
+                                    <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img1} alt="" />
+                                        <img src={img2} alt="" /></div>
+                                    <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img3} alt="" />
+                                        <img src={img1} alt="" /></div>
+                                    <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img2} alt="" />
+                                        <img src={img3} alt="" /></div>
                                 </div>
                                 <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__seeAllButton" >
                                     See All
@@ -133,7 +133,7 @@ function IndividualOffer() {
                         </div>
 
                         <div className="individualOffer__body__offerInfo__rightContainer__map">
-                            <Map/>
+                            <Map />
                         </div>
 
 

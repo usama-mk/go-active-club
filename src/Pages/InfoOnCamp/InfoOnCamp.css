@@ -1,0 +1,194 @@
+.infoOnCamp {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgray; */
+    flex-wrap: wrap;
+}
+
+.infoOnCamp__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.infoOnCamp__heading__left {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.infoOnCamp__heading__right>img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.infoOnCamp__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.infoOnCamp__body__topImages {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.infoOnCamp__body__topImagee__big {
+    flex: 0.5;
+}
+
+.infoOnCamp__body__topImagee__big>img {
+    width: 500px;
+    min-width: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    border: 3px #3e69a1 solid;
+}
+
+.infoOnCamp__body__topImages__small {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.5;
+}
+
+.infoOnCamp__body__topImages__small__img>img {
+    width: 300px;
+    min-width: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px #3e69a1 solid;
+}
+.infoOnCamp__body__offerInfo__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 20px 20px 5px 5px;
+    /* min-width: 500px; */
+}
+
+.infoOnCamp__body__offerInfo {
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 20px 20px 5px 5px;
+    /* min-width: 500px; */
+}
+
+.infoOnCamp__body__offerInfo__leftContainer {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px #3e69a1 solid;
+    margin: 20px;
+    flex: 0.5;
+}
+
+.infoOnCamp__body__offerInfo__leftContainer__info {
+    border-radius: 10px;
+    border: 2px #3e69a1 solid;
+    padding: 20px;
+    margin: 20px;
+    /* for the side line margine */
+    margin-right: 20px;
+}
+
+.infoOnCamp__body__offerInfo__leftContainer__info__top {
+    font-size: 12px;
+}
+
+.infoOnCamp__body__offerInfo__leftContainer__info__sub {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.infoOnCamp__body__offerInfo__leftContainer__description {
+    border-radius: 10px;
+    border: 2px white solid;
+    padding: 20px;
+    max-width: 700px;
+    max-height: 150px;
+    flex-wrap: wrap;
+    overflow: auto;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    margin: 20px;
+
+
+    /* for the side line margine */
+    margin-right: 20px;
+}
+
+.infoOnCamp__body__offerInfo__leftContainer__description__heading {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+ 
+
+.infoOnCamp__body__offerInfo__rightContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex: 0.5;
+
+}
+ 
+
+.infoOnCamp__body__offerInfo__rightContainer__map {
+    min-height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px white solid;
+    display: flex;
+    justify-content: center;
+}
+.infoOnCamp__body__offerInfo__rightContainer__socials{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.socialIcons{
+    font-size: 40px;
+    cursor: pointer;
+}
+.fb{
+    color: #3b5998;
+}
+
+.tw{
+    color: #1DA1F2;
+}
+.insta{
+    color: #833AB4;
+}
+.ws{
+    color: #075e54;
+}
+.infoOnCamp__body__offerInfo__footer{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px #3e69a1 solid;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.infoOnCamp__body__offerInfo__footer__images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.infoOnCamp__body__offerInfo__footer__images> img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}

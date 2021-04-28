@@ -2,6 +2,7 @@ import './App.css';
 import Map from './Components/Map/Map';
 import AllOffers from './Pages/AllOffers/AllOffers';
 import IndividualOffer from './Pages/IndividualOffer/IndividualOffer';
+import InfoOnCamp from './Pages/InfoOnCamp/InfoOnCamp';
 import Login from './Pages/Login/Login';
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
     <div className="App">
        {/* <Login/> */}
        {/* <AllOffers/> */}
-       <IndividualOffer/>
-       {/* <Map/> */}
+       {/* <IndividualOffer/> */}
+       <InfoOnCamp/>
+      
     </div>
   );
 }
