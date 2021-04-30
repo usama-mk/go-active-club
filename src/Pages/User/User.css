@@ -1,0 +1,167 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgray; */
+    flex-wrap: wrap;
+}
+
+.user__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.user__heading__left {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.user__heading__right>img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.user__body{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 20px 20px 5px 5px;
+    /* width: 80vw; */
+}
+
+.user__body__profileInfo{
+    padding: 5px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #3e69a1;
+    border-radius: 20px 20px 20px 20px;
+}
+.user__body__profileInfo__image> img{
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #3e69a1;
+}
+.user__body__profileInfo__image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user__body__profileInfo__image__editPhotoBtn{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px #3e69a1 solid;
+}
+.user__body__profileInfo__description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.user__body__profileInfo__description_item{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    flex-wrap: wrap;
+}
+.user__body__profileInfo__description_item__editBtn{
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* max-width: 100px; */
+    text-align: center;
+    border: 3px #3e69a1 solid;
+}
+
+.description_item{
+    width: 200px;
+    overflow: auto;
+}
+
+.label{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* Images below profile*/
+.user__body__topImages {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.user__body__topImagee__big {
+    flex: 0.5;
+}
+
+.user__body__topImagee__big>img {
+    width: 500px;
+    min-width: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    border: 3px #3e69a1 solid;
+}
+
+.user__body__topImages__small {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.5;
+}
+
+.user__body__topImages__small__img>img {
+    width: 300px;
+    min-width: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px #3e69a1 solid;
+}
+
+.user__body__topImages__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__body__topImages__wrapper__edit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.user__body__topImages__wrapper__editBtn{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* max-width: 200px; */
+    border: 3px #3e69a1 solid;
+
+}
+.user__body__topImages__wrapper__myBookedTrips{
+    display: flex;
+    justify-content: center;
+}
+.user__body__topImages__wrapper__myBookedTrips__btn{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* max-width: 200px; */
+    border: 3px #3e69a1 solid;
+}
