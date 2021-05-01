@@ -3,7 +3,7 @@ import { useState } from 'react/cjs/react.development'
 import './Checkout.css'
 
 function Checkout() {
-   
+
     const [images, setImages] = useState([
         {
             participantImage: "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1080529720%2F960x0.jpg%3Ffit%3Dscale"
@@ -29,7 +29,7 @@ function Checkout() {
 
             {/* heading */}
             <div className="checkout__heading">
-                <div className="allOffers__heading__left">
+                <div className="checkout__heading__left">
                     GoActive.Club
                 </div>
 
@@ -41,30 +41,48 @@ function Checkout() {
             {/* checkout body left */}
             <div className="checkout__body">
                 <div className="checkout__body__left">
-                <div className="checkout__body__left__images" >
-                    {images.map((image) => {
-                        return (
-                            <img src={image.participantImage} alt="Participant image" />
-                        )
-                    })}
-                </div>
-                
+                    <div className="checkout__body__left__images" >
+                        {images.map((image) => {
+                            return (
+                                <img src={image.participantImage} alt="Participant image" />
+                            )
+                        })}
+                    </div>
 
-                <div className="checkout__body__offerInfo__leftContainer__info" >
-                            <div className="checkout__body__offerInfo__leftContainer__info__top">
-                                5 day beginner surf course for UM group
+
+                    <div className="checkout__body__offerInfo__leftContainer__info" >
+                        <div className="checkout__body__offerInfo__leftContainer__info__top">
+                            5 day beginner surf course for UM group
                             </div>
-                            <div className="checkout__body__offerInfo__leftContainer__info__sub">
-                                Gota D'Agua Surf Camp
+                        <div className="checkout__body__offerInfo__leftContainer__info__sub">
+                            Gota D'Agua Surf Camp
+                            </div>
+                    </div>
+
+                    <div className="checkout__body__left__buttons__wrapper">
+                        <div className="checkout__body__left__buttons__wrapper__top" >
+                            <div className="checkout__body__left__buttons__wrapper__top__btn">
+                                View Offer
+                            </div>
+                            <div className="checkout__body__left__buttons__wrapper__top__btn">
+                                Send Invite
                             </div>
                         </div>
+                        
+                        <div className="checkout__body__left__buttons__wrapper__bottom">
+                        <div className="checkout__body__left__buttons__wrapper__top__btn">
+                             Ask a question
+                            </div>
+                        </div>
+                    </div>
 
-                
+
+
                 </div>
 
-                 {/* checkout body right= payments */}
-            <div className="checkout__body__right" >
-                Payments
+                {/* checkout body right= payments */}
+                <div className="checkout__body__right" >
+                    Payments Section
             </div>
             </div>
 
