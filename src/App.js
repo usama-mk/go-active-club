@@ -1,6 +1,8 @@
 import './App.css';
 import Map from './Components/Map/Map';
 import AllOffers from './Pages/AllOffers/AllOffers';
+import Bookings from './Pages/BookingsPage/Bookings';
+import Checkout from './Pages/Checkout/Checkout';
 import IndividualOffer from './Pages/IndividualOffer/IndividualOffer';
 import IndividualParticipant from './Pages/IndividualParticipant/IndividualParticipant';
 import InfoOnCamp from './Pages/InfoOnCamp/InfoOnCamp';
@@ -17,7 +19,9 @@ function App() {
        {/* <InfoOnCamp/> */}
        {/* <Participants/> */}
        {/* <IndividualParticipant/> */}
-       <User/>
+       {/* <User/> */}
+       {/* <Bookings/> */}
+       <Checkout/>
       
     </div>
   );

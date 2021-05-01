@@ -1,0 +1,145 @@
+.bookings {
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgray; */
+    flex-wrap: wrap;
+}
+
+.bookings__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.bookings__heading__left {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.bookings__heading__right>img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.bookings__body{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 20px 20px 5px 5px;
+    /* width: 80vw; */
+}
+
+.bookings__body__profileInfo{
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #3e69a1;
+    border-radius: 20px 20px 20px 20px;
+}
+.bookings__body__profileInfo__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookings__body__offerInfo__leftContainer__info {
+    border-radius: 10px;
+    border: 2px #3e69a1 solid;
+    padding: 20px;
+    margin: 20px;
+    /* for the side line margine */
+    margin-right: 20px;
+}
+
+.bookings__body__offerInfo__leftContainer__info__top {
+    font-size: 12px;
+}
+
+.bookings__body__offerInfo__leftContainer__info__sub {
+    font-size: 14px;
+    font-weight: 700;
+}
+ 
+.bookings__body__profileInfo__btn{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* max-width: 200px; */
+    border: 3px #3e69a1 solid;
+}
+
+.bookings__body__profileInfo__mid__btns{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookings__body__profileInfo__mid__btn1{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* max-width: 200px; */
+    border: 3px #3e69a1 solid;
+}
+
+.bookings__body__offerInfo__rightContainer__seeAll__right__images {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.bookings__body__offerInfo__rightContainer__seeAll__right__images>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.bookings__body__offerInfo__rightContainer__seeAll {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    /* del min */
+    min-height: 100px;
+    flex-wrap: wrap;
+    overflow: auto;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.bookings__body__offerInfo__rightContainer__seeAll__right__seeAllButton {
+    padding: 20px;
+    background-color: #3e69a1;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.bookings__body__title{
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
