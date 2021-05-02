@@ -1,5 +1,4 @@
 import './App.css';
-import Map from './Components/Map/Map';
 import AllOffers from './Pages/AllOffers/AllOffers';
 import Bookings from './Pages/BookingsPage/Bookings';
 import Checkout from './Pages/Checkout/Checkout';
