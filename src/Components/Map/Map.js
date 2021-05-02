@@ -13,10 +13,10 @@ function Map() {
     })
     return (
         <div className="map" >
-            <ReactMapGL className="map" {...viewport} mapboxApiAccessToken="pk.eyJ1IjoiY2xpZW50cy1maXJlYmFzZSIsImEiOiJja28wbXpsbWQwZXMyMm5ud3M0bWs0bTJuIn0.Fi78C9sKb-9P4w9tx9A6dg" 
-            container='map'
-            onViewportChange={(viewport)=>{setViewport(viewport)}}
-            mapStyle= 'mapbox://styles/clients-firebase/cko0npu5q01a117pqnrh2ruj6'
+            <ReactMapGL className="map" {...viewport} mapboxApiAccessToken="pk.eyJ1IjoiY2xpZW50cy1maXJlYmFzZSIsImEiOiJja28wbXpsbWQwZXMyMm5ud3M0bWs0bTJuIn0.Fi78C9sKb-9P4w9tx9A6dg"
+                container='map'
+                onViewportChange={(viewport) => { setViewport(viewport) }}
+                mapStyle='mapbox://styles/clients-firebase/cko0npu5q01a117pqnrh2ruj6'
             >
                 {/* markers */}
             </ReactMapGL>

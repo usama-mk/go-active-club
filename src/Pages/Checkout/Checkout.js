@@ -68,10 +68,10 @@ function Checkout() {
                                 Send Invite
                             </div>
                         </div>
-                        
+
                         <div className="checkout__body__left__buttons__wrapper__bottom">
-                        <div className="checkout__body__left__buttons__wrapper__top__btn">
-                             Ask a question
+                            <div className="checkout__body__left__buttons__wrapper__top__btn">
+                                Ask a question
                             </div>
                         </div>
                     </div>

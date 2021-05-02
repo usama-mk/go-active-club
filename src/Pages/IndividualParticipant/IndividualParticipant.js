@@ -2,25 +2,18 @@ import React from 'react'
 import img1 from '../../assets/images/1.png'
 import img2 from '../../assets/images/2.png'
 import img3 from '../../assets/images/3.png'
+import Heading from '../../Components/Heading/Heading'
 import './IndividualParticipant.css'
 
 function IndividualParticipant() {
     return (
         <div className="individualParticipant" >
-            <div className="individualParticipant__heading">
-                <div className="individualParticipant__heading__left">
-                    GoActive.Club
-                </div>
-
-                <div className="individualParticipant__heading__right">
-                    <img src="https://pbs.twimg.com/profile_images/1302228464565661696/IP9epnCS.jpg" alt="Avatar" />
-                </div>
-            </div>
+            <Heading />
 
             <div className="individualParticipant__body">
                 <div className="individualParticipant__body__profileInfo">
                     <div className="individualParticipant__body__profileInfo__image" >
-                        <img src="https://pbs.twimg.com/profile_images/1302228464565661696/IP9epnCS.jpg" alt=""/>
+                        <img src="https://pbs.twimg.com/profile_images/1302228464565661696/IP9epnCS.jpg" alt="" />
                     </div>
                     <div className="individualParticipant__body__profileInfo__description" >
                         <div className="individualParticipant__body__profileInfo__description_item">
@@ -34,7 +27,7 @@ function IndividualParticipant() {
 
                         <div className="individualParticipant__body__profileInfo__description_item">
                             <div className="keywordsLabel label">
-                            Keywords
+                                Keywords
                             </div>
                             <div className="keywords description_item">
                                 Beach, Summer, Party, Sport
@@ -43,7 +36,7 @@ function IndividualParticipant() {
 
                         <div className="individualParticipant__body__profileInfo__description_item">
                             <div className="universityLabel label">
-                            University
+                                University
                             </div>
                             <div className="university description_item">
                                 UM
@@ -52,7 +45,7 @@ function IndividualParticipant() {
 
                         <div className="individualParticipant__body__profileInfo__description_item">
                             <div className="facultyLabel label">
-                            Faculty
+                                Faculty
                             </div>
                             <div className="faculty description_item">
                                 SBE
@@ -62,8 +55,8 @@ function IndividualParticipant() {
                 </div>
 
 
-{/* Images below profile */}
-<div className="individualParticipant__body__topImages">
+                {/* Images below profile */}
+                <div className="individualParticipant__body__topImages">
                     <div className="individualParticipant__body__topImagee__big">
                         <img src={img1} alt="" />
                     </div>

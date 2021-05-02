@@ -95,6 +95,7 @@
 .individualOffer__body__offerInfo__leftContainer__info__sub {
     font-size: 14px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .individualOffer__body__offerInfo__leftContainer__description {

@@ -24,14 +24,17 @@
     font-size: 40px;
     font-weight: 900;
 }
-.allOffers__heading__mid{
-    font-size: 40px;
-    font-weight: 400;
-    color: #c9c9c9;
-    padding-right: 50px;
-}
+ 
 .allOffers__heading__right>img {
     border-radius: 50%;
     width: 100px;
     cursor: pointer;
   }
+
+.back{
+    padding: 10px 20px ;
+    font-size: 20px;
+    background-color: #c9c9c9;
+    border-radius: 10px;
+    cursor: pointer;
+}

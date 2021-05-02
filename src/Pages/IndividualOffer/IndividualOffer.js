@@ -4,21 +4,28 @@ import img1 from '../../assets/images/1.png'
 import img2 from '../../assets/images/2.png'
 import img3 from '../../assets/images/3.png'
 import Map from '../../Components/Map/Map'
+import { useHistory } from 'react-router'
+import Heading from '../../Components/Heading/Heading'
 
 
 function IndividualOffer() {
+    const history = useHistory();
+
+    const handleParticipants = () => {
+        history.push("/participants")
+    }
+
+    const handleReserveOffer = () => {
+        history.push("/bookings")
+    }
+    const handleInfoOnCamp = () => {
+        history.push("/info-oncamp")
+    }
+
     return (
         <div className="individualOffer" >
             {/* Heading */}
-            <div className="individualOffer__heading">
-                <div className="allOffers__heading__left">
-                    GoActive.Club
-                </div>
-
-                <div className="individualOffer__heading__right">
-                    <img src="https://pbs.twimg.com/profile_images/1302228464565661696/IP9epnCS.jpg" alt="Avatar" />
-                </div>
-            </div>
+            <Heading />
 
             {/* Body */}
             <div className="individualOffer__body" >
@@ -53,7 +60,7 @@ function IndividualOffer() {
                             <div className="individualOffer__body__offerInfo__leftContainer__info__top">
                                 5 day beginner surf course for UM group
                             </div>
-                            <div className="individualOffer__body__offerInfo__leftContainer__info__sub">
+                            <div onClick={handleInfoOnCamp} className="individualOffer__body__offerInfo__leftContainer__info__sub">
                                 Gota D'Agua Surf Camp
                             </div>
                         </div>
@@ -96,7 +103,7 @@ function IndividualOffer() {
                         </div>
                             </div>
 
-                            <div className="individualOffer__body__offerInfo__rightContainer__price__reserve">
+                            <div onClick={handleReserveOffer} className="individualOffer__body__offerInfo__rightContainer__price__reserve">
                                 Reserve
                         </div>
                         </div>
@@ -118,7 +125,7 @@ function IndividualOffer() {
                                 </div>
                             </div>
                             <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right" >
-                                <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" >
+                                <div onClick={handleParticipants} className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" >
                                     <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img1} alt="" />
                                         <img src={img2} alt="" /></div>
                                     <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img3} alt="" />
@@ -126,7 +133,7 @@ function IndividualOffer() {
                                     <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__images" ><img src={img2} alt="" />
                                         <img src={img3} alt="" /></div>
                                 </div>
-                                <div className="individualOffer__body__offerInfo__rightContainer__seeAll__right__seeAllButton" >
+                                <div onClick={handleParticipants} className="individualOffer__body__offerInfo__rightContainer__seeAll__right__seeAllButton" >
                                     See All
                             </div>
                             </div>

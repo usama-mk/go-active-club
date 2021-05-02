@@ -3,6 +3,7 @@ import { useState } from 'react'
 import img1 from '../../assets/images/1.png'
 import img2 from '../../assets/images/2.png'
 import img3 from '../../assets/images/3.png'
+import Heading from '../../Components/Heading/Heading'
 import './User.css'
 
 function User() {
@@ -39,15 +40,7 @@ function User() {
 
     return (
         <div className="user" >
-            <div className="user__heading">
-                <div className="user__heading__left">
-                    GoActive.Club
-                </div>
-
-                <div className="user__heading__right">
-                    <img src="https://pbs.twimg.com/profile_images/1302228464565661696/IP9epnCS.jpg" alt="Avatar" />
-                </div>
-            </div>
+            <Heading />
 
             <div className="user__body">
                 <div className="user__body__profileInfo">
